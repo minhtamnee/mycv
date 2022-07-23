@@ -1,0 +1,84 @@
+@media screen and (max-width: 1200px) {
+    .control_menu {
+        flex-direction: column;
+        width: 144px;
+        height: 560px;
+        left:-110px;
+        top: 172px;
+        transform: scale(0.75);
+        transition: 0.5s ease-in-out;
+        position: fixed;
+    }
+
+    .control_menu:hover {
+        left: -18px;
+    }
+
+    .wrapper {
+        display: block;
+    }
+
+    .sidebar {
+        width: auto;
+        align-items: flex-start;
+        box-sizing: border-box;
+    }
+
+    .info_img {
+        top: 60px;
+        left: 60px;
+        transform: none;
+    }
+
+    .info_name {
+        margin-top: 60px;
+        margin-left: 330px;
+    }
+
+    .info_job, .list_social_media, .info_contact, .download {
+        margin-left: 330px;
+    }
+
+    .social_media_icon {
+        margin: 0px 20px 0 0;
+    }
+
+    .info_contact {
+        background-color: white;
+        width: auto;
+    }
+
+    .contact_type {
+        margin-left: 0;
+        width: 100%;
+    }
+
+    .contact_type:last-child{
+        border-bottom: 1px solid #E3E3E3;
+    }
+
+    .download {
+        margin-bottom: 60px;
+    }
+    .main {
+        margin-left: 0;
+    }
+    .main_title {
+        margin-top: 60px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .sidebar {
+        align-items: center;
+    }
+    
+    .info_img {
+    left: 50%;
+    transform: translate(-50%,-5%);
+    }
+
+    .clients_img {
+        margin: 0;
+    }
+}
